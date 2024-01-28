@@ -136,7 +136,7 @@ main {
     }
 
     .section {
-        width: 33%;
+        max-width: 307px;
         height: 100%;
     }
 
