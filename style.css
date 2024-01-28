@@ -79,16 +79,34 @@ main {
     border: none;
 }
 
+.button:hover {
+    border: 2px solid var(--color5);
+    color: var(--color5);
+    transition: .3s;
+}
+
 .sedans button {
     color: var(--color1);
+}
+
+.sedans button:hover {
+    background-color: var(--color1);
 }
 
 .suvs button {
     color: var(--color2);
 }
 
+.suvs button:hover {
+    background-color: var(--color2);
+}
+
 .luxury button {
     color: var(--color3);
+}
+
+.luxury button:hover {
+    background-color: var(--color3);
 }
 
 .attribution {
