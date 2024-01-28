@@ -38,11 +38,13 @@ main {
 
 .section {
     width: 100%;
-    padding: 20px;
+    padding: 30px;
 }
 
 .sedans {
     background-color: var(--color1);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .suvs {
@@ -51,6 +53,24 @@ main {
 
 .luxury {
     background-color: var(--color3);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.title {
+    font-family: var(--font-title);
+    color: var(--color5);
+    padding: 20px 0px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.text {
+    color: var(--color4);
+}
+
+.button {
+    margin: 20px 0px
 }
 
 .attribution {
@@ -72,5 +92,17 @@ main {
     .section {
         width: 33%;
         height: 100%;
+    }
+
+    .sedans {
+        border-top-left-radius: 8px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 8px;
+    }
+
+    .luxury {
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 8px;
     }
 }
